@@ -1,2 +1,3 @@
-# textural-bias-medical-imaging
+# Textural bias medical imaging
+
 Working with textural filters and DCNNs.
