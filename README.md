@@ -29,7 +29,7 @@ I have contributed the Gibbs filter to the codebase of [MONAI](https://monai.io/
      * [KSpaceSpikeNoise](https://docs.monai.io/en/latest/transforms.html#kspacespikenoise): applies spike artifacts directly on the image.
      * [RandKSpaceSpikeNoise](https://docs.monai.io/en/latest/transforms.html#kspacespikenoise): applies the artifacts randomly on images while sampling in the intensity of the artifacts.
      * [KSpaceSpikeNoised](https://docs.monai.io/en/latest/transforms.html#kspacespikenoised): allows to apply transform both on the image and/or label; dictionary-style version of ``KSpaceSpikeNoise``.
-     * [RandKSpaceSpikeNoised](https://docs.monai.io/en/latest/transforms.html#randkspacespikenoised)
+     * [RandKSpaceSpikeNoised](https://docs.monai.io/en/latest/transforms.html#randkspacespikenoised): dictionary-version of ``RandKSpaceSpikeNoise``.
  
 
 
