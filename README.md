@@ -33,7 +33,7 @@ I have contributed the Gibbs filter to the codebase of [MONAI](https://monai.io/
  
 
 
-# Working with textural filters and DCNNs.
+# Textural filters and DCNN
 
 * Segmentation experiments are performed using a residual Unet.
 
