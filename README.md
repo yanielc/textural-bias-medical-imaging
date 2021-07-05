@@ -15,7 +15,7 @@ More details on the physics of the artifacts can be found in the following publi
 ### Examples and visualizations
 For an overview of the three transforms and visualizations of their applications on the data refer to the Jupyter notebook: __artifacts_transforms_visualizations.ipynb__.
 
-### MONAI contributions
+## MONAI contributions
 
 I have contributed the Gibbs filter to the codebase of [MONAI](https://monai.io/) as various transfroms:
 
@@ -33,4 +33,15 @@ I have contributed the Gibbs filter to the codebase of [MONAI](https://monai.io/
  
 
 
-## Working with textural filters and DCNNs.
+# Working with textural filters and DCNNs.
+
+### Robustness to the presence of artifacts across a range of intensities.
+
+* Training the models on stylized data results in improved performance when it comes to unseen data with different strengths of the artifacts.
+* Examples of this results are shown in the notebook __stylized_models_inference.ipynb__.
+
+
+
+### Robustness to unseen sourcing distribution.
+
+* Early experiments are showing that stylized data are more robust when tested on images coming from hospitals unseen at training time.
