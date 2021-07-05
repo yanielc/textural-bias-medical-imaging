@@ -35,13 +35,19 @@ I have contributed the Gibbs filter to the codebase of [MONAI](https://monai.io/
 
 # Working with textural filters and DCNNs.
 
+* Segmentation experiments are performed using a residual Unet.
+
 ### Robustness to the presence of artifacts across a range of intensities.
 
 * Training the models on stylized data results in improved performance when it comes to unseen data with different strengths of the artifacts.
 * Examples of this results are shown in the notebook __stylized_models_inference.ipynb__.
 
 
-
 ### Robustness to unseen sourcing distribution.
 
 * Early experiments are showing that stylized data are more robust when tested on images coming from hospitals unseen at training time.
+
+### Still in the works: compressed MRI sensing.
+
+* Reconstruction problem in the presence of undersampled data.
+* Network: ReconGan.
