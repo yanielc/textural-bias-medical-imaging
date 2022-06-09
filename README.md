@@ -13,7 +13,7 @@ More details on the physics of the artifacts can be found in the following publi
 [An Image-based Approach to Understanding the Physics of MR Artifacts.](https://pubs.rsna.org/doi/full/10.1148/rg.313105115)
 
 ### Examples and visualizations
-For an overview of the three transforms and visualizations of their applications on the data refer to the Jupyter notebook: __artifacts_transforms_visualizations.ipynb__.
+For an overview of the three transforms and visualizations of their applications on the data refer to the Jupyter notebook: `artifacts_transforms_visualizations.ipynb`.
 
 ## MONAI contributions
 
